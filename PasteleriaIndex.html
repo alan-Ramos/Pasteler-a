@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería</title>
+    <link rel="stylesheet" href="Pasteleria.css">
+</head>
+<body>
+
+    <section class="head">
+        <img src="./Pastelería La abuelita Logo.png" alt="Logo Pastelería La abuelita" width="200" height="200"/>
+    </section>
+    
+    <h2 class="sub">MENÚ</h2>
+
+    <section class="menu">
+        
+    <div class="elemento">
+        <h3>Pasteles familiares</h3>
+            <ul>
+                <li>Pastel de 3 leches.........  $350</li>
+                <li>Pastel de cremino..........  $480</li>
+                <li>Pastel red velvet..........  $500</li>
+                <li>Combinado de 2 sabores.....  $650</li>
+                <li>Combinado de 3 sabores.....  $800</li>
+                <br>
+                <dd>*La división de especialidades se hará a porciones iguales</dd>
+
+            </ul>
+    </div>
+        
+    <div class="elemento">
+        <h3>Pasteles individuales</h3>
+            <ul>
+                <li>Pastel de 3 leches.........  $350</li>
+                <li>Pastel de cremino..........  $480</li>
+                <li>Pastel red velvet..........  $500</li>
+            </ul>
+    </div>
+
+    <div class="elemento">
+        <h3>Extras</h3>
+            <ul>
+                <li>Gelatina Familiar..........  $250</li>
+                <li>Concha rellena de queso....  $35</li>
+                <li>Flan.......................  $25</li>
+            </ul>
+    </div>
+      
+    </section>
+
+
+    <h2 class="sub">ADORNOS</h2>
+    <h3 class="sub">Adornos disponibles</h3>
+
+
+    <section class="menu">
+
+        
+            <div class="elemento2"> Crema.............  $50 <br>
+                <img src="Adornos/Crema.jpg" alt="ImagenCrema" width="140" height="120"/></div>
+
+            <div class="elemento2"> Formas con fondant.........  $240 <br>
+                <img src="Adornos/FormasFondant.jpg" alt="ImagenFormas" width="140" height="100"/></div>
+
+            <div class="elemento2">Fruta.............  $50 <br>
+                <img src="Adornos/Fruta.jpg" alt="ImagenFruta" width="140" height="120"/></div>
+
+            <div class="elemento2"> Malvaviscos...........  $35 <br>
+                <img src="Adornos/Malvaviscos.jpg" alt="ImagenMalvaviscos" width="140" height="120"/></div>
+
+            
+        
+        </section>
+        <dd>*En caso de que necesite una combinación de adornos, se le cobrará el 100% del costo del adorno mas caro más es 50% del costo de el o los otros adornos</dd>
+
+    <hr>
+<section>
+    <h2>PEDIDO</h2><br>
+            <label for="Nombre"> Nombre</label><br>
+            <input type="text" id="Nombre" name="Nombre"><br><br>
+
+            <label for="tel">Teléfono</label><br>
+            <input type="tel" id="tel" name="tel" maxlength="10"><br><br>
+
+            <label for="correo">Correo</label><br>
+            <input type="email" id="correo" name="correo"><br><br>
+
+         <p>A continuación, describa las caracteríscricas de su pastel</p><br>
+
+            <label for="Descripción"> Descripción</label><br>
+            <input type="text" id="Descripción" name="Descripción"><br><br>
+
+        <h5>*PASTELES FAMILIARES</h5>
+
+        <p>Elija el sabor(es) de su(s) pasteles</p><br>
+        <p>*Un solo sabor</p>
+
+            <input type="radio" id="3 leches" name="sabor" value="3 leches">
+            <label for="3 leches">3 leches</label>
+            <input type="number" id="3lechesNumber" name="3lechesNumber" placeholder="¿Cuantos?"><br><br>
+
+            <input type="radio" id="Cremino" name="sabor" value="Cremino">
+            <label for="Cremino">Cremino</label>
+            <input type="number" id="CreminoNumber" name="CreminoNumber" placeholder="¿Cuantos?"><br><br>
+            
+            <input type="radio" id="red velvet" name="sabor" value="red velvet" >
+            <label for="red velvet">red velvet</label>
+            <input type="number" id="RedVelverNumber" name="RedVelverNumber" placeholder="¿Cuantos?"><br><br>
+        
+        <p>*Combinados</p>
+
+            <input type="checkbox" id="Sabor1" name="Sabor1" value="3 leches">
+            <label for="Sabor1">3 leches</label><br>
+
+            <input type="checkbox" id="Sabor2" name="Sabor2" value="Cremino">
+            <label for="Sabor2">Cremino</label><br>
+
+            <input type="checkbox" id="Sabor3" name="Sabor3" value="red velvet">
+            <label for="Sabor3">red velvet</label><br>
+            <input type="number" id="CombinadosNumber" name="CombinadosNumber" placeholder="¿Cuantos?"><br><br>
+
+        <p>Adornos</p>
+        <p>*Adornos sencillos</p>
+            <input type="radio" id="Crema" name="Adorno" value="Crema">
+            <label for="Crema">Crema</label><br><br>
+
+            <input type="radio" id="Fondant" name="Adorno" value="Fondant">
+            <label for="Fondant">Fondant</label><br><br>
+            
+            <input type="radio" id="Fruta" name="Adorno" value="Fruta">
+            <label for="Fruta">Frutas</label><br><br>
+
+            <input type="radio" id="Malvaviscos" name="Adorno" value="Malvaviscos">
+            <label for="Malvaviscos">Malvaviscos</label><br><br>
+
+        <p>*Adornos combinados</p>
+            <input type="checkbox" id="Adorno1" name="Adorno1" value="Crema">
+            <label for="Adorno1">Crema</label><br>
+
+            <input type="checkbox" id="Adorno2" name="Adorno2" value="Fondant">
+            <label for="Adorno2">Fondant</label><br>
+
+            <input type="checkbox" id="Adorno3" name="Adorno3" value="Fruta">
+            <label for="Adorno3">Fruta</label><br>
+
+            <input type="checkbox" id="Adorno4" name="Adorno4" value="Malvaviscos">
+            <label for="Adorno4">Malvaviscos</label><br>
+
+        <h5>*PASTELES INDIVIDUALES</h5>
+
+            <input type="radio" id="3 leches" name="saborInd" value="3 leches">
+            <label for="3 leches">3 leches</label>
+            <input type="number" id="3lechesNumber" name="3lechesNumber" placeholder="¿Cuantos?"><br><br>
+
+            <input type="radio" id="Cremino" name="saborInd" value="Cremino">
+            <label for="Cremino">Cremino</label>
+            <input type="number" id="CreminoNumber" name="CreminoNumber" placeholder="¿Cuantos?"><br><br>
+            
+            <input type="radio" id="red velvet" name="saborInd" value="red velvet" >
+            <label for="red velvet">red velvet</label>
+            <input type="number" id="RedVelverNumber" name="RedVelverNumber" placeholder="¿Cuantos?"><br><br>
+
+        <h5>*EXTRAS</h5>
+
+            <input type="radio" id="Gelatina familiar" name="extras" value="Gelatina familiar">
+            <label for="Gelatina familiar">Gelatina familiar</label>
+            <input type="number" id="GelatinaNumber" name="GelatinaNumber" placeholder="¿Cuantos?"><br><br>
+
+            <input type="radio" id="Concha rellena" name="extras" value="Concha rellena">
+            <label for="Concha rellena">Concha rellena</label>
+            <input type="number" id="ConchaNumber" name="ConchaNumber" placeholder="¿Cuantos?"><br><br>
+            
+            <input type="radio" id="Flan" name="extras" value="Flan" >
+            <label for="Flan">Flan</label>
+            <input type="number" id="FlanNumber" name="FlanNumber" placeholder="¿Cuantos?"><br><br>
+
+            <button>Realizar pedido</button>
+
+        </section>
+<hr>
+        <footer>
+            <div>
+                <p style="color: rgb(165, 160, 160)">Dirección: Av. Central No. 558 Col. Nueva Aragón, CDMX</p>
+                <p style="color: rgb(165, 160, 160)">Teléfono: (55) 9032 4565</p>
+                <P style="color: rgb(165, 160, 160)">Horarios de atención: 09:00 hrs - 20:00 hrs</P>
+            </div>
+        </footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: 100px;
+}
+
+
+
+.head{
+    background-color: darkcyan;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.elemento{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+.fondo{
+    background-image: url(./Pastelería\ La\ abuelita\ Logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

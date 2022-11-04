@@ -1,0 +1,43 @@
+*{font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenidos{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.elemento{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+
+.sub{
+    text-align: center;
+}
+
+.elemento2{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
